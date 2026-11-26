@@ -1,0 +1,10 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// Add your application's models below, then run `npm run prisma:migrate -- --name init`.

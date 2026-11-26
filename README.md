@@ -121,14 +121,14 @@ Jika melakukan merge branch secara lokal, sertakan nomor issue pada pesan merge.
 Format:
 
 ```text
-merge: <description> #<issue-number>
+merge: <description> (#<issue-number>)
 ```
 
 Contoh:
 
 ```bash
-git merge feature/2-login --no-ff -m "merge: add login feature #2"
-git merge fix/8-invalid-user-id --no-ff -m "merge: fix invalid user id #8"
+git merge feature/2-login --no-ff -m "merge: add login feature (#2)"
+git merge fix/8-invalid-user-id --no-ff -m "merge: fix invalid user id (#8)"
 ```
 
 Gunakan `--no-ff` jika ingin mempertahankan riwayat merge sebagai merge commit.

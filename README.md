@@ -94,16 +94,16 @@ Jenis branch:
 Gunakan format Conventional Commits dengan menyertakan nomor issue:
 
 ```text
-<type>: <description> #<issue-number>
+<type>: <description> (#<issue-number>)
 ```
 
 Contoh:
 
 ```bash
-git commit -m "feat: add login endpoint #2"
-git commit -m "fix: handle invalid user id #8"
-git commit -m "chore: update dependencies #10"
-git commit -m "docs: update API documentation #12"
+git commit -m "feat: add login endpoint (#2)"
+git commit -m "fix: handle invalid user id (#8)"
+git commit -m "chore: update dependencies (#10)"
+git commit -m "docs: update API documentation (#12)"
 ```
 
 Ketentuan:
